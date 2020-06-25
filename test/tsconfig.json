@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": ["ES5"],
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "declaration": false,
+    "removeComments": false,
+    "outDir": "./build",
+    "types": []
+  },
+  "files": [
+    "./pdi-build-test.ts"
+  ]
+}
