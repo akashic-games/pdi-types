@@ -5,6 +5,7 @@ import { AssetLoadError } from "../errors";
  * `Asset` の読み込みまたは読み込み失敗を受け取るハンドラのインターフェース定義。
  * 通常、このインターフェースをゲーム開発者が利用する必要はない。
  * `AssetManagerLoadHandler` とは異なる。こちらは `Asset` の読み込み処理を直接実行する場合に用いるハンドラである。
+ * @ignore
  */
 export interface AssetLoadHandler {
 	/**

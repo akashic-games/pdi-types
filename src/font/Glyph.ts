@@ -88,5 +88,8 @@ export interface Glyph {
 	 */
 	isSurfaceValid: boolean;
 
+	/**
+	 * @ignore
+	 */
 	_atlas: SurfaceAtlas | null;
 }
