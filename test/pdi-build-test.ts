@@ -108,9 +108,6 @@ class AbstractResourceFactory implements pdi.ResourceFactory {
 	                   _fontWeight?: pdi.FontWeightString): pdi.GlyphFactory {
 		throw new Error("AbstractResourceFactory#createGlyphFactory()");
 	}
-	createSurfaceAtlas(_width: number, _height: number): pdi.SurfaceAtlas {
-		throw new Error("AbstractResourceFactory#createSurfaceAtlas()");
-	}
 }
 
 // この箇所の型定義がビルドエラーを起こさないことがポイント
