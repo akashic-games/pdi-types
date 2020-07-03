@@ -1,5 +1,4 @@
 import { Surface } from "../surface/Surface";
-import { SurfaceAtlas } from "./SurfaceAtlas";
 
 /**
  * グリフの領域を表すインターフェース。
@@ -90,6 +89,7 @@ export interface Glyph {
 
 	/**
 	 * @ignore
+	 * 利用側で使うためにプロパティとして予約しておく。 null で初期化されねばならない。
 	 */
-	_atlas: SurfaceAtlas | null;
+	_atlas: unknown;
 }
