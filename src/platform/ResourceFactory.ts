@@ -9,7 +9,6 @@ import { VideoAsset } from "../asset/video/VideoAsset";
 import { VideoSystem } from "../asset/video/VideoSystem";
 import { FontWeightString } from "../font/FontWeightString";
 import { GlyphFactory } from "../font/GlyphFactory";
-import { SurfaceAtlas } from "../font/SurfaceAtlas";
 import { Surface } from "../surface/Surface";
 
 /**
@@ -84,5 +83,4 @@ export interface ResourceFactory {
 		fontWeight?: FontWeightString
 	): GlyphFactory;
 
-	createSurfaceAtlas(width: number, height: number): SurfaceAtlas;
 }

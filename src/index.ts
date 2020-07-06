@@ -30,8 +30,6 @@ export * from "./font/FontWeight";
 export * from "./font/FontFamily";
 export * from "./font/Glyph";
 export * from "./font/GlyphFactory";
-export * from "./font/SurfaceAtlas";
-export * from "./font/SurfaceAtlasSlot";
 
 export * from "./platform/Looper";
 export * from "./platform/OperationPluginView";
