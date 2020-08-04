@@ -61,7 +61,11 @@ class AbstractAMFlowClient implements AMFlow.AMFlow {
 	offEvent(_handler: (event: playlog.Event) => void): void {
 		throw new Error("AbstractAMFlowClient#offEvent");
 	}
-	getTickList(_from: number, _to: number, _callback: (error: Error, ticks: playlog.TickList) => void): void {
+	getTickList(
+		_optsOrBegin: number | AMFlow.GetTickListOptions,
+		_endOrCallback: number | ((error: Error | null, tickList?: playlog.TickList) => void),
+		_callback?: (error: Error | null, tickList?: playlog.TickList) => void
+	): void {
 		throw new Error("AbstractAMFlowClient#getTickList");
 	}
 	putStartPoint(_startPoint: AMFlow.StartPoint, _callback: (error: Error) => void): void {
