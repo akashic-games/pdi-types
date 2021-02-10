@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "build": "tsc -p ./",
-    "test": "npm run build && npm run test:build && npm run lint && npm run lint:test",
+    "test": "npm run build && npm run test:build && npm run lint",
     "test:build": "tsc -p ./test/ && node ./test/build/test/pdi-build-test.js",
     "lint": "npm run lint:eslint && npm run lint:textlint && npm run lint:md",
     "lint:eslint": "eslint \"src/**/*.ts\" \"test/**/*.ts\" --fix",
