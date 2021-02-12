@@ -1,0 +1,16 @@
+{
+    "extends": "@akashic/eslint-config",
+    "root": true,
+    "parserOptions": {
+        "project": "tsconfig.json",
+        "sourceType": "module"
+    },
+    "rules": {
+        "@typescript-eslint/no-unused-vars": [
+            "error",
+            {
+                "args": "none"
+            }
+        ]
+    }
+}
