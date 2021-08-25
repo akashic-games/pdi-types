@@ -22,6 +22,8 @@ export * from "./asset/text/TextAsset";
 export * from "./asset/video/VideoPlayer";
 export * from "./asset/video/VideoSystem";
 export * from "./asset/video/VideoAsset";
+export * from "./asset/vector-image/VectorImageAsset";
+export * from "./asset/vector-image/VectorImageAssetHint";
 export * from "./asset/Asset";
 export * from "./asset/AssetLoadErrorType";
 

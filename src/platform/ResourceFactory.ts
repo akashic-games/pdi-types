@@ -5,6 +5,8 @@ import { AudioSystem } from "../asset/audio/AudioSystem";
 import { ImageAsset } from "../asset/image/ImageAsset";
 import { ScriptAsset } from "../asset/script/ScriptAsset";
 import { TextAsset } from "../asset/text/TextAsset";
+import { VectorImageAsset } from "../asset/vector-image/VectorImageAsset";
+import { VectorImageAssetHint } from "../asset/vector-image/VectorImageAssetHint";
 import { VideoAsset } from "../asset/video/VideoAsset";
 import { VideoSystem } from "../asset/video/VideoSystem";
 import { FontWeightString } from "../font/FontWeightString";
@@ -45,6 +47,8 @@ export interface ResourceFactory {
 	createAudioPlayer(system: AudioSystem): AudioPlayer;
 
 	createScriptAsset(id: string, assetPath: string): ScriptAsset;
+
+	createVectorImageAsset(id: string, assetPath: string, hint: VectorImageAssetHint): VectorImageAsset;
 
 	/**
 	 * Surface を作成する。
