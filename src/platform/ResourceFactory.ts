@@ -48,7 +48,13 @@ export interface ResourceFactory {
 
 	createScriptAsset(id: string, assetPath: string): ScriptAsset;
 
-	createVectorImageAsset(id: string, assetPath: string, hint: VectorImageAssetHint): VectorImageAsset;
+	createVectorImageAsset(
+		id: string,
+		assetPath: string,
+		width: number,
+		height: number,
+		hint?: VectorImageAssetHint
+	): VectorImageAsset;
 
 	/**
 	 * Surface を作成する。
