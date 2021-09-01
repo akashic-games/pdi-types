@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 1.2.0
+* @akashic/amflowのminor更新に追従
+
 ## 1.1.1
 * `Renderer#_getImageData()` の戻り値の型を `ImageData | null` に修正
 
