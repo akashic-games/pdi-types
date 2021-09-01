@@ -10,6 +10,8 @@ import { VectorImageAssetHint } from "./VectorImageAssetHint";
  */
 export interface VectorImageAsset extends Asset {
 	type: "vector-image";
+	width: number;
+	height: number;
 	hint: VectorImageAssetHint | undefined;
 
 	/**
