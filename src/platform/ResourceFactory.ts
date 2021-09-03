@@ -48,7 +48,7 @@ export interface ResourceFactory {
 
 	createScriptAsset(id: string, assetPath: string): ScriptAsset;
 
-	createVectorImageAsset(
+	createVectorImageAsset?(
 		id: string,
 		assetPath: string,
 		width: number,
