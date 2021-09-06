@@ -7,7 +7,7 @@ on:
       - feature/*
 
 env:
-  NODE_VERSION: 14
+  NODE_VERSION: 16
   cache-version: v1
 
 jobs:
