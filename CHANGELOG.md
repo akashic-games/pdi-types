@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 1.3.0
+* `VectorImageAsset` の設定を追加
+
 ## 1.2.0
 * @akashic/amflowのminor更新に追従
 
