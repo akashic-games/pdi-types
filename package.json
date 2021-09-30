@@ -47,7 +47,6 @@
     "@akashic/trigger": "~1.0.0"
   },
   "publishConfig": {
-    "@akashic:registry": "https://registry.npmjs.org/",
-    "tag": "feature"
+    "@akashic:registry": "https://registry.npmjs.org/"
   }
 }
