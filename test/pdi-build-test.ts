@@ -103,6 +103,15 @@ class AbstractResourceFactory implements pdi.ResourceFactory {
 	createScriptAsset(_id: string, _assetPath: string): pdi.ScriptAsset {
 		throw new Error("AbstractResourceFactory#createScriptAsset()");
 	}
+	createVectorImageAsset(
+		_id: string,
+		_assetPath: string,
+		_width: number,
+		_height: number,
+		_hint: pdi.VectorImageAssetHint
+	): pdi.VectorImageAsset {
+		throw new Error("AbstractResourceFactory#createVectorImageAsset()");
+	}
 	createSurface(_width: number, _height: number): pdi.Surface {
 		throw new Error("AbstractResourceFactory#createSurface()");
 	}
