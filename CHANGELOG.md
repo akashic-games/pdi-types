@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 1.4.0
+* オーディオアセットのオフセット位置指定再生のサポート
+  * `AudioAsset#offset` を追加
+  * `AudioAsset#play()` に引数を追加
+  * `AudioPlayer#play()` に引数を追加
+  * `ResourceFactory#createAudioAsset()` に引数を追加
+
 ## 1.3.0
 * `VectorImageAsset` の設定を追加
 
