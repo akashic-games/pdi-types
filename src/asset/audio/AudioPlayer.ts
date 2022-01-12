@@ -56,13 +56,16 @@ export interface AudioPlayer {
 	 * @private
 	 */
 	_muted: boolean;
+
 	/**
 	 * `AudioAsset` を再生する。
 	 *
 	 * 再生後、 `this.onPlay` がfireされる。
 	 * @param audio 再生するオーディオアセット
+	 * @param offset 再生するオーディオの開始位置 (ミリ秒)。省略された場合 `0`。
+	 * @param duration 再生するオーディオの長さ (ミリ秒)。省略された場合、対象の `AudioAsset` の再生時間。
 	 */
-	play(audio: AudioAsset): void;
+	play(audio: AudioAsset, offset?: number, duration?: number): void;
 
 	/**
 	 * 再生を停止する。

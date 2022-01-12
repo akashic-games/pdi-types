@@ -17,13 +17,14 @@ export interface AudioAsset extends Asset {
 	duration: number;
 	loop: boolean;
 	hint: AudioAssetHint;
+	offset: number;
 
 	/**
 	 * @ignore
 	 */
 	_system: AudioSystem;
 
-	play(): AudioPlayer;
+	play(offset?: number, duration?: number): AudioPlayer;
 
 	stop(): void;
 
