@@ -26,8 +26,8 @@
   "author": "DWANGO Co., Ltd.",
   "license": "MIT",
   "devDependencies": {
-    "@akashic/eslint-config": "^0.1.2",
-    "@akashic/remark-preset-lint": "^0.1.1",
+    "@akashic/eslint-config": "^1.1.0",
+    "@akashic/remark-preset-lint": "^0.1.2",
     "@typescript-eslint/eslint-plugin": "^4.31.0",
     "eslint": "^7.32.0",
     "eslint-plugin-import": "^2.24.2",
@@ -44,7 +44,7 @@
   "dependencies": {
     "@akashic/amflow": "~3.1.0",
     "@akashic/playlog": "~3.1.0",
-    "@akashic/trigger": "~1.0.0"
+    "@akashic/trigger": "~1.0.1"
   },
   "publishConfig": {
     "@akashic:registry": "https://registry.npmjs.org/"
