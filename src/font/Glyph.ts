@@ -1,4 +1,4 @@
-import { Surface } from "../surface/Surface";
+import type { Surface } from "../surface/Surface";
 
 /**
  * グリフの領域を表すインターフェース。

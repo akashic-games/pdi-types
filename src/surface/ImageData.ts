@@ -1,4 +1,4 @@
-import { CommonSize } from "../commons";
+import type { CommonSize } from "../commons";
 
 /**
  * 描画領域のピクセル情報を表すインターフェース。

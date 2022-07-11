@@ -1,7 +1,7 @@
-import { Asset } from "../Asset";
-import { AudioAssetHint } from "./AudioAssetHint";
-import { AudioPlayer } from "./AudioPlayer";
-import { AudioSystem } from "./AudioSystem";
+import type { Asset } from "../Asset";
+import type { AudioAssetHint } from "./AudioAssetHint";
+import type { AudioPlayer } from "./AudioPlayer";
+import type { AudioSystem } from "./AudioSystem";
 
 /**
  * 音リソースを表すインターフェース。

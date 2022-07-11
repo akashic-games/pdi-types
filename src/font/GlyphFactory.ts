@@ -1,5 +1,5 @@
-import { FontWeightString } from "./FontWeightString";
-import { Glyph } from "./Glyph";
+import type { FontWeightString } from "./FontWeightString";
+import type { Glyph } from "./Glyph";
 
 /**
  * グリフファクトリ。

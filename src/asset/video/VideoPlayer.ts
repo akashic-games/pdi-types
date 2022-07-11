@@ -1,5 +1,5 @@
-import { Trigger } from "@akashic/trigger";
-import { VideoAsset } from "./VideoAsset";
+import type { Trigger } from "@akashic/trigger";
+import type { VideoAsset } from "./VideoAsset";
 
 export interface VideoPlayerEvent {
 	player: VideoPlayer;

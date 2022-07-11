@@ -1,4 +1,4 @@
-import { Module } from "./Module";
+import type { Module } from "./Module";
 
 /**
  * `ScriptAsset` の実行時、`g` 以下に加えられる値を定めた共通interface。

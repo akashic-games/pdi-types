@@ -1,17 +1,17 @@
-import { AudioAsset } from "../asset/audio/AudioAsset";
-import { AudioAssetHint } from "../asset/audio/AudioAssetHint";
-import { AudioPlayer } from "../asset/audio/AudioPlayer";
-import { AudioSystem } from "../asset/audio/AudioSystem";
-import { ImageAsset } from "../asset/image/ImageAsset";
-import { ScriptAsset } from "../asset/script/ScriptAsset";
-import { TextAsset } from "../asset/text/TextAsset";
-import { VectorImageAsset } from "../asset/vector-image/VectorImageAsset";
-import { VectorImageAssetHint } from "../asset/vector-image/VectorImageAssetHint";
-import { VideoAsset } from "../asset/video/VideoAsset";
-import { VideoSystem } from "../asset/video/VideoSystem";
-import { FontWeightString } from "../font/FontWeightString";
-import { GlyphFactory } from "../font/GlyphFactory";
-import { Surface } from "../surface/Surface";
+import type { AudioAsset } from "../asset/audio/AudioAsset";
+import type { AudioAssetHint } from "../asset/audio/AudioAssetHint";
+import type { AudioPlayer } from "../asset/audio/AudioPlayer";
+import type { AudioSystem } from "../asset/audio/AudioSystem";
+import type { ImageAsset } from "../asset/image/ImageAsset";
+import type { ScriptAsset } from "../asset/script/ScriptAsset";
+import type { TextAsset } from "../asset/text/TextAsset";
+import type { VectorImageAsset } from "../asset/vector-image/VectorImageAsset";
+import type { VectorImageAssetHint } from "../asset/vector-image/VectorImageAssetHint";
+import type { VideoAsset } from "../asset/video/VideoAsset";
+import type { VideoSystem } from "../asset/video/VideoSystem";
+import type { FontWeightString } from "../font/FontWeightString";
+import type { GlyphFactory } from "../font/GlyphFactory";
+import type { Surface } from "../surface/Surface";
 
 /**
  * リソースの生成を行うインターフェース。

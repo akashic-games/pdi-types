@@ -1,5 +1,5 @@
-import { CommonSize } from "../commons";
-import { Renderer } from "./Renderer";
+import type { CommonSize } from "../commons";
+import type { Renderer } from "./Renderer";
 
 /**
  * 描画領域を表すインターフェース。

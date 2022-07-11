@@ -2,9 +2,9 @@
  * ビルドテスト(インターフェースを満たすことを確認する)
  */
 
-import * as AMFlow from "@akashic/amflow";
-import * as playlog from "@akashic/playlog";
-import * as pdi from "../src";
+import type * as AMFlow from "@akashic/amflow";
+import type * as playlog from "@akashic/playlog";
+import type * as pdi from "../src";
 
 class MockLooper implements pdi.Looper {
 	_running: boolean;
