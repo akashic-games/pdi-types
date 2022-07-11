@@ -15,15 +15,15 @@ jobs:
     name: Publish and Release
     steps:
       - name: Setup Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 1
       - name: Cache node modules
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         env:
           cache-name: cache-node-modules
         with:
@@ -39,7 +39,7 @@ jobs:
           npm run build
           npm test
       - name: Publish and Release
-        uses: akashic-games/action-release@v1
+        uses: akashic-games/action-release@v2
         continue-on-error: true
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
