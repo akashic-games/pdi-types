@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 1.3.1
+* @akashic/trigger の patch 更新に伴うバージョンアップ
+
 ## 1.3.0
 * `VectorImageAsset` の設定を追加
 
