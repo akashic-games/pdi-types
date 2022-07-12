@@ -1,5 +1,5 @@
-import { AudioAsset } from "./AudioAsset";
-import { AudioPlayer } from "./AudioPlayer";
+import type { AudioAsset } from "./AudioAsset";
+import type { AudioPlayer } from "./AudioPlayer";
 
 export interface AudioSystem {
 	id: string;

@@ -1,7 +1,7 @@
-import { CompositeOperationString } from "./CompositeOperationString";
-import { ImageData } from "./ImageData";
-import { ShaderProgram } from "./ShaderProgram";
-import { Surface } from "./Surface";
+import type { CompositeOperationString } from "./CompositeOperationString";
+import type { ImageData } from "./ImageData";
+import type { ShaderProgram } from "./ShaderProgram";
+import type { Surface } from "./Surface";
 
 /**
  * ゲームの描画を行うクラス。

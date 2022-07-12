@@ -1,4 +1,4 @@
-import { OperationPluginView } from "./OperationPluginView";
+import type { OperationPluginView } from "./OperationPluginView";
 
 /**
  * 操作プラグインが参照する、抽象化されたviewの情報。

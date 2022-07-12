@@ -1,6 +1,6 @@
-import { Surface } from "../../surface/Surface";
-import { Asset } from "../Asset";
-import { VectorImageAssetHint } from "./VectorImageAssetHint";
+import type { Surface } from "../../surface/Surface";
+import type { Asset } from "../Asset";
+import type { VectorImageAssetHint } from "./VectorImageAssetHint";
 
 /**
  * ベクタ画像リソースを表すインターフェース。

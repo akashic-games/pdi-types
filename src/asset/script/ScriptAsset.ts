@@ -1,5 +1,5 @@
-import { Asset } from "../Asset";
-import { ScriptAssetRuntimeValue } from "./ScriptAssetRuntimeValue";
+import type { Asset } from "../Asset";
+import type { ScriptAssetRuntimeValue } from "./ScriptAssetRuntimeValue";
 
 /**
  * スクリプトリソースを表すインターフェース。
