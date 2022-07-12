@@ -1,5 +1,5 @@
-import * as pl from "@akashic/playlog";
-import {PlatformPointEvent} from "./PlatformPointEvent";
+import type * as pl from "@akashic/playlog";
+import type {PlatformPointEvent} from "./PlatformPointEvent";
 
 /**
  * プラットフォームで生じたイベントの受付口。

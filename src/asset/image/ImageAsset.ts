@@ -1,6 +1,6 @@
-import { Surface } from "../../surface/Surface";
-import { Asset } from "../Asset";
-import { ImageAssetHint } from "./ImageAssetHint";
+import type { Surface } from "../../surface/Surface";
+import type { Asset } from "../Asset";
+import type { ImageAssetHint } from "./ImageAssetHint";
 
 /**
  * 画像リソースを表すインターフェース。

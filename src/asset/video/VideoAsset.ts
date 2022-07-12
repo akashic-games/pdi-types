@@ -1,6 +1,6 @@
-import { Surface } from "../../surface/Surface";
-import { Asset } from "../Asset";
-import { VideoPlayer } from "./VideoPlayer";
+import type { Surface } from "../../surface/Surface";
+import type { Asset } from "../Asset";
+import type { VideoPlayer } from "./VideoPlayer";
 
 /**
  * 動画リソースを表すインターフェース。
