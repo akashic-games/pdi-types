@@ -121,6 +121,10 @@ class AbstractResourceFactory implements pdi.ResourceFactory {
 	                   _fontWeight?: pdi.FontWeightString): pdi.GlyphFactory {
 		throw new Error("AbstractResourceFactory#createGlyphFactory()");
 	}
+
+	_createVectorImageAssetFromString(_id: string, _data: string): pdi.VectorImageAsset {
+		throw new Error("AbstractResourceFactory#_createVectorImageAssetFromString()");
+	}
 }
 
 // この箇所の型定義がビルドエラーを起こさないことがポイント

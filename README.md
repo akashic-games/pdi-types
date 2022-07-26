@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/akashic-games/pdi-types/blob/master/img/akashic.png"/>
+<img src="https://raw.githubusercontent.com/akashic-games/pdi-types/main/img/akashic.png"/>
 </p>
 
 # pdi-types
