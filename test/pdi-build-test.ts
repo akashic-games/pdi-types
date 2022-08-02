@@ -122,7 +122,7 @@ class AbstractResourceFactory implements Required<pdi.ResourceFactory> {
 		throw new Error("AbstractResourceFactory#createGlyphFactory()");
 	}
 
-	createVectorImageAssetFromString(_id: string, _data: string): pdi.VectorImageAsset {
+	createVectorImageAssetFromString(_id: string, _assetPath: string, _data: string): pdi.VectorImageAsset {
 		throw new Error("AbstractResourceFactory#_createVectorImageAssetFromString()");
 	}
 }
