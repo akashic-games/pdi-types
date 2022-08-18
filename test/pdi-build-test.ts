@@ -82,7 +82,7 @@ class AbstractAMFlowClient implements AMFlow.AMFlow {
 	}
 }
 
-class AbstractResourceFactory implements pdi.ResourceFactory {
+class AbstractResourceFactory implements Required<pdi.ResourceFactory> {
 	createImageAsset(_id: string, _assetPath: string, _width: number, _height: number): pdi.ImageAsset {
 		throw new Error("AbstractResourceFactory#createImageAsset()");
 	}
@@ -120,6 +120,10 @@ class AbstractResourceFactory implements pdi.ResourceFactory {
 	                   _strokeWidth?: number, _strokeColor?: string, _strokeOnly?: boolean,
 	                   _fontWeight?: pdi.FontWeightString): pdi.GlyphFactory {
 		throw new Error("AbstractResourceFactory#createGlyphFactory()");
+	}
+
+	createVectorImageAssetFromString(_id: string, _assetPath: string, _data: string): pdi.VectorImageAsset {
+		throw new Error("AbstractResourceFactory#_createVectorImageAssetFromString()");
 	}
 }
 

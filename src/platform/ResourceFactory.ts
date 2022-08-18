@@ -93,4 +93,5 @@ export interface ResourceFactory {
 		fontWeight?: FontWeightString
 	): GlyphFactory;
 
+	 createVectorImageAssetFromString?(id: string, assetPath: string, data: string): VectorImageAsset;
 }

@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## 1.4.0
+* `ResourceFactory#_createVectorImageAssetFromString()` を追加
+
+## 1.4.0-beta.1
+* `ResourceFactory#_createVectorImageAssetFromString()` の引数に assetPath を追加
+
+## 1.4.0-beta.0
+* `ResourceFactory#_createVectorImageAssetFromString()` を追加
+
 ## 1.3.1
 * @akashic/trigger の patch 更新に伴うバージョンアップ
 
