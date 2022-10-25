@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.5.0
+* オーディオアセットの再生開始位置サポートを追加
+  * `AudioAsset#offset` を追加
+  * `ResourceFactory#createAudioAsset()` に引数を追加
+
 ## 1.4.0
 * `ResourceFactory#createVectorImageAssetFromString()` を追加
 
