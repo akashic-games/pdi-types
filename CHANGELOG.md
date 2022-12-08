@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 1.6.0
+* `AudioAsset#offset` の型を `number | undefined` に変更
+
 ## 1.5.0
 * オーディオアセットの再生開始位置サポートを追加
   * `AudioAsset#offset` を追加

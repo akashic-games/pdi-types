@@ -34,7 +34,7 @@ export interface AudioAsset extends Asset {
 	/**
 	 * 再生開始位置。単位はミリ秒。
 	 */
-	offset: number;
+	offset: number | undefined;
 
 	/**
 	 * @ignore
