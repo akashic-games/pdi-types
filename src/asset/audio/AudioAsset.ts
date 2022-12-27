@@ -23,6 +23,7 @@ export interface AudioAsset extends Asset {
 
 	/**
 	 * ループ再生するか。
+	 * この値は参照のためにのみ公開されている。ゲーム開発者はこの値を直接変更してはならない。
 	 */
 	loop: boolean;
 
@@ -33,6 +34,7 @@ export interface AudioAsset extends Asset {
 
 	/**
 	 * 再生開始位置。単位はミリ秒。
+	 * この値は参照のためにのみ公開されている。ゲーム開発者はこの値を直接変更してはならない。
 	 */
 	offset: number | undefined;
 
