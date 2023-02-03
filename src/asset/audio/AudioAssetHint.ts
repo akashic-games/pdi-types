@@ -3,4 +3,5 @@
  */
 export interface AudioAssetHint {
 	streaming?: boolean;
+	extensions?: string[];
 }
