@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 1.7.0
+* `AudioAssetHint#extensions` を追加
+
 ## 1.6.0
 * `AudioAsset#offset` の型を `number | undefined` に変更
 
