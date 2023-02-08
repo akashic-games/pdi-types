@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased changes
+## 1.7.0
 * `AudioAssetHint#extensions` を追加
 
 ## 1.6.0
