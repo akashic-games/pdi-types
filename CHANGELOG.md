@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 1.8.0
+* @akashic/trigger の major 更新に伴うバージョンアップ
+
 ## 1.7.0
 * `AudioAssetHint#extensions` を追加
 
