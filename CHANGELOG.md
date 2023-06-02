@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## Unreleased changes
+* `PlatformPointEvent#button` を追加
+
 ## 1.8.0
 * @akashic/trigger の major 更新に伴うバージョンアップ
 
