@@ -12,10 +12,10 @@ export const enum PlatformPointType {
 /**
  * ポイントイベントを発生させたボタンの種類。
  */
-export enum PlatformPointButton {
-	Left,
-	Center,
-	Right
+export const enum PlatformButtonType {
+	Primary = 0,
+	Auxiliary = 1,
+	Secondary = 2
 }
 
 /**
@@ -44,7 +44,7 @@ export interface PlatformPointEvent {
 
 	/**
 	 * ポイントイベントを発生させたボタンの種類。
-	 * defalt: Left
+	 * defalt: Primary
 	 */
-	button?: PlatformPointButton;
+	button: PlatformButtonType;
 }
