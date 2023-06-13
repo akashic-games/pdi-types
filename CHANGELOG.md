@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased changes
+## 1.9.0
 * `PlatformPointEvent#button` を追加
 
 ## 1.8.0
