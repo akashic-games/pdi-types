@@ -10,6 +10,15 @@ export const enum PlatformPointType {
 }
 
 /**
+ * ポイントイベントを発生させたボタンの種類。
+ */
+export const enum PlatformButtonType {
+	Primary = 0,
+	Auxiliary = 1,
+	Secondary = 2
+}
+
+/**
  * プラットフォームのポイントイベント。
  *
  * 利用側で `g.PointDownEvent` などに変換される、プラットフォームのポイントイベント。
@@ -32,4 +41,10 @@ export interface PlatformPointEvent {
 	 * プライマリサーフェスの左上を原点とする。
 	 */
 	offset: CommonOffset;
+
+	/**
+	 * ポイントイベントを発生させたボタンの種類。
+	 * defalt: Primary
+	 */
+	button: PlatformButtonType;
 }
