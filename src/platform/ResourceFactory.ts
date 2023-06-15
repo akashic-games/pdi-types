@@ -2,6 +2,7 @@ import type { AudioAsset } from "../asset/audio/AudioAsset";
 import type { AudioAssetHint } from "../asset/audio/AudioAssetHint";
 import type { AudioPlayer } from "../asset/audio/AudioPlayer";
 import type { AudioSystem } from "../asset/audio/AudioSystem";
+import type { BinaryAsset } from "../asset/binary/BinaryAsset";
 import type { ImageAsset } from "../asset/image/ImageAsset";
 import type { ScriptAsset } from "../asset/script/ScriptAsset";
 import type { TextAsset } from "../asset/text/TextAsset";
@@ -56,6 +57,11 @@ export interface ResourceFactory {
 		height: number,
 		hint?: VectorImageAssetHint
 	): VectorImageAsset;
+
+	createBinaryAsset?(
+		id: string,
+		assetPath: string
+	): BinaryAsset;
 
 	/**
 	 * Surface を作成する。

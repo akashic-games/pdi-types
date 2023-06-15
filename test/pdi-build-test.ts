@@ -112,6 +112,9 @@ class AbstractResourceFactory implements Required<pdi.ResourceFactory> {
 	): pdi.VectorImageAsset {
 		throw new Error("AbstractResourceFactory#createVectorImageAsset()");
 	}
+	createBinaryAsset(_id: string, _assetPath: string): pdi.BinaryAsset {
+		throw new Error("AbstractResourceFactory#createBinaryAsset()");
+	}
 	createSurface(_width: number, _height: number): pdi.Surface {
 		throw new Error("AbstractResourceFactory#createSurface()");
 	}
