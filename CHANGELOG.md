@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## unreleased changes
+* `BinaryAsset` を追加
+* `ScriptAsset#exports` を追加
+
 ## 1.9.0
 * `PlatformPointEvent#button` を追加
 
