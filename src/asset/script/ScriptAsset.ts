@@ -13,6 +13,7 @@ import type { ScriptAssetRuntimeValue } from "./ScriptAssetRuntimeValue";
 export interface ScriptAsset extends Asset {
 	type: "script";
 	script: string;
+	exports: string[];
 
 	execute(execEnv: ScriptAssetRuntimeValue): any;
 }
