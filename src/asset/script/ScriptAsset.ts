@@ -14,5 +14,9 @@ export interface ScriptAsset extends Asset {
 	type: "script";
 	script: string;
 
+	// 後方互換性のため省略可能として定義しておく
+	// TODO: ? の削除
+	exports?: string[];
+
 	execute(execEnv: ScriptAssetRuntimeValue): any;
 }
