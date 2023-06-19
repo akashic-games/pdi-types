@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## unreleased changes
+## 1.10.0
 * `BinaryAsset` を追加
 * `ScriptAsset#exports` を追加
 
