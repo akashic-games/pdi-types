@@ -42,8 +42,8 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@akashic/amflow": "~3.1.0",
-    "@akashic/playlog": "~3.1.0",
+    "@akashic/amflow": "~4.0.0",
+    "@akashic/playlog": "~3.2.0",
     "@akashic/trigger": "~2.0.0"
   },
   "publishConfig": {
