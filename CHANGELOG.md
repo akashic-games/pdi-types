@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 1.10.1
+* `ResourceFactory#createScriptAsset()` の引数に exports を追加
+
 ## 1.10.0
 * `BinaryAsset` を追加
 * `ScriptAsset#exports` を追加

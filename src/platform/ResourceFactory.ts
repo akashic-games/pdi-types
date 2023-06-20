@@ -48,7 +48,7 @@ export interface ResourceFactory {
 
 	createAudioPlayer(system: AudioSystem): AudioPlayer;
 
-	createScriptAsset(id: string, assetPath: string): ScriptAsset;
+	createScriptAsset(id: string, assetPath: string, exports?: string[]): ScriptAsset;
 
 	createVectorImageAsset?(
 		id: string,
