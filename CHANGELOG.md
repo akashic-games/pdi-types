@@ -1,7 +1,7 @@
 # CHANGELOG
 
 ## 1.11.1
-* `PlatformPointEvent#button` をオプションに変更
+* `PlatformPointEvent#button` を optional なプロパティに変更
 
 ## 1.11.0
 * `@akashic/amflow` と `@akashic/playlog` の minor 更新に伴うバージョンアップ
