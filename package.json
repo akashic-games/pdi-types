@@ -1,6 +1,6 @@
 {
   "name": "@akashic/pdi-types",
-  "version": "1.10.1",
+  "version": "1.11.0",
   "description": "Interface definition for Akashic Platform Dependent Implementation (PDI) Layer",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -42,7 +42,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@akashic/amflow": "~4.0.0",
+    "@akashic/amflow": "~3.2.0",
     "@akashic/playlog": "~3.2.0",
     "@akashic/trigger": "~2.0.0"
   },

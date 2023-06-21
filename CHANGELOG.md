@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 1.11.0
+* `@akashic/amflow` と `@akashic/playlog` の minor 更新に伴うバージョンアップ
+
 ## 1.10.1
 * `ResourceFactory#createScriptAsset()` の引数に exports を追加
 
