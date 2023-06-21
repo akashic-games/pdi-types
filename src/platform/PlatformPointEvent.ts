@@ -46,5 +46,5 @@ export interface PlatformPointEvent {
 	 * ポイントイベントを発生させたボタンの種類。
 	 * defalt: Primary
 	 */
-	button: PlatformButtonType;
+	button?: PlatformButtonType;
 }
