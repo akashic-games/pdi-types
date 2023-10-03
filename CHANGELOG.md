@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## unreleased changes
+* `PlatformButtonType` に `Unchanged` を追加
+
 ## 1.11.1
 * `PlatformPointEvent#button` を optional なプロパティに変更
 
