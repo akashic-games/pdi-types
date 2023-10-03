@@ -13,6 +13,7 @@ export const enum PlatformPointType {
  * ポイントイベントを発生させたボタンの種類。
  */
 export const enum PlatformButtonType {
+	Unchanged = -1,
 	Primary = 0,
 	Auxiliary = 1,
 	Secondary = 2
@@ -44,7 +45,9 @@ export interface PlatformPointEvent {
 
 	/**
 	 * ポイントイベントを発生させたボタンの種類。
-	 * defalt: Primary
+	 *
+	 * PointDownEvent, PointUpEvent の場合、初期値は Primary、
+	 * PointMoveEvent の場合、初期値は Unchanged
 	 */
 	button?: PlatformButtonType;
 }
