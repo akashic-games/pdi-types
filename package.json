@@ -16,7 +16,7 @@
     "lint:eslint": "eslint \"src/**/*.ts\" \"test/**/*.ts\" --fix",
     "lint:textlint": "textlint -f pretty-error ./README.md",
     "lint:md": "remark ./*.md --frail --no-stdout --quiet --rc-path ./.remarkrc",
-    "doc": "typedoc --out ./doc/ --target ES5 -name pdi-types --module commonjs",
+    "doc": "typedoc src/index.ts --out ./doc/",
     "prepare": "npm run build"
   },
   "repository": {
