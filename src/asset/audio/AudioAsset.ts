@@ -39,6 +39,13 @@ export interface AudioAsset extends Asset {
 	offset: number | undefined;
 
 	/**
+	 * ループ再生時の再生開始位置。単位はミリ秒。
+	 * `loop` が真でなければ参照されない。
+	 * この値は参照のためにのみ公開されている。ゲーム開発者はこの値を直接変更してはならない。
+	 */
+	loopOffset: number | undefined;
+
+	/**
 	 * @ignore
 	 */
 	_system: AudioSystem;
