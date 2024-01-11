@@ -41,7 +41,8 @@ export interface ResourceFactory {
 		system: AudioSystem,
 		loop: boolean,
 		hint: AudioAssetHint,
-		offset?: number
+		offset?: number,
+		loopOffset?: number
 	): AudioAsset;
 
 	createTextAsset(id: string, assetPath: string): TextAsset;

@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.13.0-beta.0
+* オーディオアセットのループ開始位置サポートを追加
+  * `AudioAsset#loopOffset` を追加
+  * `ResourceFactory#createAudioAsset()` に引数を追加
+
 ## 1.12.0
 * `PlatformButtonType` に `Unchanged` を追加
 
