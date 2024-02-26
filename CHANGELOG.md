@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 1.13.0
+* `CompositeOperationString` に `"difference"` と `"saturation"` を追加
+
 ## 1.12.0
 * `PlatformButtonType` に `Unchanged` を追加
 
