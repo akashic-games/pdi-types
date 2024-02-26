@@ -12,6 +12,8 @@
  * - `"destination-out"`: 描画する領域を透明にする。
  * - `"destination-over"`: 先に描画された領域の下に描画する。
  * - `"xor"`: 先に描画された領域と重なった部分のみ透明にする。
+ * - `"difference"`: 先に描画された色とこれから描画する色との差分の絶対値を描画する。
+ * - `"saturation"`: 先に描画された領域の明度と色相を維持し、重なっている部分の彩度を採用する。
  *
  * `experimental-` がつくものは、環境によって描画結果が大きく異なることがある。
  * 動作については HTML5 Canvas の globalCompositeOperation も参照のこと。
@@ -28,4 +30,6 @@ export type CompositeOperationString =
 	| "experimental-destination-in"
 	| "destination-out"
 	| "destination-over"
-	| "xor";
+	| "xor"
+	| "difference"
+	| "saturation";
