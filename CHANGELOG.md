@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## unreleased changes
+* `RendererCandidate` を追加
+* `RendererRequirement#rendererCandidates` の型を `(string | RendererCandidate)[]` に変更
+
 ## 1.13.0
 * `CompositeOperationString` に `"difference"` と `"saturation"` を追加
 

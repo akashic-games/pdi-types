@@ -40,5 +40,6 @@ export * from "./platform/OperationPluginViewInfo";
 export * from "./platform/Platform";
 export * from "./platform/PlatformEventHandler";
 export * from "./platform/PlatformPointEvent";
+export * from "./platform/RendererCandidate";
 export * from "./platform/RendererRequirement";
 export * from "./platform/ResourceFactory";

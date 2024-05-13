@@ -1,3 +1,5 @@
+import type { RendererCandidate } from "./RendererCandidate";
+
 /**
  * Rendererへの要求事項。
  */
@@ -16,5 +18,5 @@ export interface RendererRequirement {
 	 * Rendererのタイプ。
 	 * 優先度の高いものから順に指定される。
 	 */
-	rendererCandidates?: string[];
+	rendererCandidates?: (string | RendererCandidate)[];
 }
