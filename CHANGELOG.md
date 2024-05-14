@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## unreleased changes
+## 1.14.0
 * `RendererCandidate` を追加
 * `RendererRequirement#rendererCandidates` の型を `(string | RendererCandidate)[]` に変更
 
