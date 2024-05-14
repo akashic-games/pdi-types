@@ -1,4 +1,8 @@
 export interface RendererCandidate {
 	type: string;
-	options?: any;
+
+	/**
+	 * Renderer の実装に依存するためここでは詳細は定義しない
+	 */
+	options?: unknown;
 }
