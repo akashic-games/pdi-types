@@ -86,12 +86,25 @@ class AbstractResourceFactory implements Required<pdi.ResourceFactory> {
 	createImageAsset(_id: string, _assetPath: string, _width: number, _height: number): pdi.ImageAsset {
 		throw new Error("AbstractResourceFactory#createImageAsset()");
 	}
-	createVideoAsset(_id: string, _assetPath: string, _width: number, _height: number,
-	                 _system: pdi.VideoSystem, _loop: boolean, _useRealSize: boolean): pdi.VideoAsset {
+	createVideoAsset(
+		_id: string,
+		_assetPath: string,
+		_width: number,
+		_height: number,
+		_system: pdi.VideoSystem,
+		_loop: boolean,
+		_useRealSize: boolean
+	): pdi.VideoAsset {
 		throw new Error("AbstractResourceFactory#createVideoAsset()");
 	}
-	createAudioAsset(_id: string, _assetPath: string, _duration: number, _system: pdi.AudioSystem,
-	                 _loop: boolean, _hint: pdi.AudioAssetHint): pdi.AudioAsset {
+	createAudioAsset(
+		_id: string,
+		_assetPath: string,
+		_duration: number,
+		_system: pdi.AudioSystem,
+		_loop: boolean,
+		_hint: pdi.AudioAssetHint
+	): pdi.AudioAsset {
 		throw new Error("AbstractResourceFactory#createAudioAsset()");
 	}
 	createTextAsset(_id: string, _assetPath: string): pdi.TextAsset {
@@ -118,10 +131,16 @@ class AbstractResourceFactory implements Required<pdi.ResourceFactory> {
 	createSurface(_width: number, _height: number): pdi.Surface {
 		throw new Error("AbstractResourceFactory#createSurface()");
 	}
-	createGlyphFactory(_fontFamily: string | string[],
-	                   _fontSize: number, _baselineHeight?: number, _fontColor?: string,
-	                   _strokeWidth?: number, _strokeColor?: string, _strokeOnly?: boolean,
-	                   _fontWeight?: pdi.FontWeightString): pdi.GlyphFactory {
+	createGlyphFactory(
+		_fontFamily: string | string[],
+		_fontSize: number,
+		_baselineHeight?: number,
+		_fontColor?: string,
+		_strokeWidth?: number,
+		_strokeColor?: string,
+		_strokeOnly?: boolean,
+		_fontWeight?: pdi.FontWeightString
+	): pdi.GlyphFactory {
 		throw new Error("AbstractResourceFactory#createGlyphFactory()");
 	}
 
