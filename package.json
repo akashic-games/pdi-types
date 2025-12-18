@@ -29,17 +29,17 @@
     "@akashic/eslint-config": "^3.0.0",
     "@akashic/remark-preset-lint": "^0.1.2",
     "remark-cli": "~12.0.0",
-    "remark-lint": "~9.1.2",
-    "textlint": "^14.0.0",
+    "remark-lint": "~10.0.0",
+    "textlint": "^15.0.0",
     "textlint-rule-max-ten": "^5.0.0",
     "textlint-rule-no-mix-dearu-desumasu": "^6.0.0",
     "textlint-rule-prh": "^6.0.0",
-    "typedoc": "^0.27.6",
+    "typedoc": "^0.28.0",
     "typescript": "^5.2.2"
   },
   "dependencies": {
     "@akashic/amflow": "~3.3.0",
-    "@akashic/playlog": "~3.3.0",
+    "@akashic/playlog": "~3.4.0",
     "@akashic/trigger": "~2.1.0"
   },
   "publishConfig": {
